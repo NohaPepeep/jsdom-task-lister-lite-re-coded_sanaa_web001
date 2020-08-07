@@ -17,7 +17,7 @@ function handleClick(e) {
 
  tasks.appendChild(s);
  s.innerHTML=text + "<button onclick='del("+counter+")' id='"+counter+"'>X</button>";
- console.log(text);learn submit
+ console.log(text);
  counter++;
  event.preventDefault();
 
